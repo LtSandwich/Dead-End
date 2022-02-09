@@ -42,7 +42,7 @@ footer {
   padding: 2rem;
 }
 
-.background,
+.background,.middle,
 .foreground {
   position: absolute;
   height: 100%;
