@@ -54,6 +54,9 @@ main {
   perspective: 10px;
   z-index: -1;
 }
+#ghost,#ghost2 {
+  opacity: .8;
+}
 
 
 nav {
@@ -145,4 +148,9 @@ nav {
 .hide span {
   transform: translateY(100%);
   display: inline-block;
+}
+
+.text2 {
+  color: rgb(202,0,0);
+  padding: 2rem 20rem;
 }
