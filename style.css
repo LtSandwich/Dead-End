@@ -13,7 +13,9 @@ html {
 main {
   font-family: "Heebo", sans-serif;
 }
-
+body {
+  background-color: black;
+}
 .container{
   position: relative;
   display: flex;
@@ -31,6 +33,13 @@ main {
 
 .foreground {
   transform: translateZ(-5px) scale(1.5);
+}
+
+footer {
+  color:white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
 }
 
 .background,
@@ -168,5 +177,12 @@ a, a:link, a:visited, a:hover {
 .text2 {
   color: rgb(202,0,0);
   padding: 2rem 20rem;
-  font-family: 'Shadows Into Light', cursive;
+
+}
+.end{
+  margin: 10rem;
+}
+
+#serpent {
+  width: 110%;
 }
