@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+  overflow: "hidden";
+}
+
+
 main {
   font-family: "Heebo", sans-serif;
 }
@@ -43,7 +50,7 @@ main {
   box-shadow: 40px 10px 10px 40px black;
   min-height: 100vh;
   z-index: 2;
-  position: absolute;
+
 }
 
 .landing {
@@ -77,12 +84,13 @@ nav {
 }
 .nav-links li {
   padding-left: 10rem;
+  padding-right: 2rem;
   font-size: 1.2rem;
   color:white;
   text-shadow: 2px 2px 5px black;
 }
 #logo {
-  font-family: "Lobster", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-weight: lighter;
   font-size: 2rem;
   color: white;
@@ -98,16 +106,23 @@ nav {
 
 .text {
   padding: 2rem 20rem;
+  text-align: center;
 
 }
+
+a, a:link, a:visited, a:hover {
+  text-decoration: none;
+  color:white;
+}
+
 
 .big-text {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -30%);
-  font-size: 5rem;
-  font-family: "Lobster", cursive;
+  font-size: 8rem;
+  font-family: 'Bebas Neue', cursive;
   color: white;
   text-shadow: 5px 5px 10px black;
 }
@@ -153,4 +168,5 @@ nav {
 .text2 {
   color: rgb(202,0,0);
   padding: 2rem 20rem;
+  font-family: 'Shadows Into Light', cursive;
 }
