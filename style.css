@@ -186,3 +186,8 @@ a, a:link, a:visited, a:hover {
 #serpent {
   width: 40%;
 }
+
+.about {
+  padding: 2rem;
+  margin: 2rem;
+}
